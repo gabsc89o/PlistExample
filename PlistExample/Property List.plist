@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   Property List.plist
-   PlistExample
-
-   Created by user138066 on 4/20/18.
-   Copyright (c) 2018 user138066. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>win</key>
+	<array>
+		<string>num1</string>
+		<string>num2</string>
+	</array>
+	<key>idiomas</key>
+	<string>30</string>
+</dict>
 </plist>

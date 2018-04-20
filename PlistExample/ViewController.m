@@ -25,5 +25,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)funcion:(id)sender{
+    _texto.text=@"Hola Mundo";
+}
 
 @end
