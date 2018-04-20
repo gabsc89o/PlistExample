@@ -11,6 +11,8 @@
 @interface ViewController : UIViewController
 
 @property IBOutlet UILabel *texto;
+@property IBOutlet UILabel *texto1;
+@property IBOutlet UILabel *texto2;
 
 @end
 

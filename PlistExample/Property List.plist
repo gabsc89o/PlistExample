@@ -2,12 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>win</key>
+	<key>ciudades</key>
 	<array>
-		<string>num1</string>
-		<string>num2</string>
+		<string>Barcelona</string>
+		<string>Madrid</string>
+		<string>Sevilla</string>
 	</array>
-	<key>idiomas</key>
-	<string>30</string>
+	<key>idioma</key>
+	<string>Ingles</string>
+	<key>empresa</key>
+	<string>Telefonica</string>
+	<key>ciudad</key>
+	<string>Manchester</string>
 </dict>
 </plist>

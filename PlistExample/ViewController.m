@@ -26,7 +26,27 @@
 }
 
 -(IBAction)funcion:(id)sender{
-    _texto.text=@"Hola Mundo";
+    //recuperamos el path del fichero, pathForResource el nombre del fichero, ofType la extension del fichero
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Property List" ofType:@"plist"];
+    //cargamos el contenido del fichero en un dictioary
+    NSDictionary *pl = [[NSDictionary alloc]initWithContentsOfFile:path];
+    //del diccionario recuperamos el valor del idioma
+
+            NSString *idioma = (NSString *)[pl objectForKey:@"idioma"];
+            //colocamos el valor de idioma en el label
+            _texto.text=idioma;
+   
+            NSString *empresa = (NSString *)[pl objectForKey:@"empresa"];
+            //colocamos el valor de idioma en el label
+            _texto1.text=empresa;
+    
+            NSString *ciudad = (NSString *)[pl objectForKey:@"ciudad"];
+            //colocamos el valor de idioma en el label
+            _texto2.text=ciudad;
+        
+    
+
+    
 }
 
 @end
