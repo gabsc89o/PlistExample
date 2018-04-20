@@ -15,6 +15,7 @@
 		AAFFC424208A23B0006A27C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFC423208A23B0006A27C4 /* main.m */; };
 		AAFFC42E208A23B1006A27C4 /* PlistExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFC42D208A23B1006A27C4 /* PlistExampleTests.m */; };
 		AAFFC439208A23B1006A27C4 /* PlistExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFC438208A23B1006A27C4 /* PlistExampleUITests.m */; };
+		AAFFC447208A2538006A27C4 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAFFC446208A2538006A27C4 /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AAFFC434208A23B1006A27C4 /* PlistExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlistExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFFC438208A23B1006A27C4 /* PlistExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlistExampleUITests.m; sourceTree = "<group>"; };
 		AAFFC43A208A23B1006A27C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFFC446208A2538006A27C4 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				AAFFC41F208A23B0006A27C4 /* LaunchScreen.storyboard */,
 				AAFFC422208A23B0006A27C4 /* Info.plist */,
 				AAFFC423208A23B0006A27C4 /* main.m */,
+				AAFFC446208A2538006A27C4 /* Property List.plist */,
 			);
 			path = PlistExample;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			files = (
 				AAFFC421208A23B0006A27C4 /* LaunchScreen.storyboard in Resources */,
 				AAFFC41E208A23B0006A27C4 /* Assets.xcassets in Resources */,
+				AAFFC447208A2538006A27C4 /* Property List.plist in Resources */,
 				AAFFC41C208A23AD006A27C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
